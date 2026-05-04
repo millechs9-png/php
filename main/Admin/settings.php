@@ -1,0 +1,182 @@
+<?php
+$page_title = 'Settings - AdminHub';
+$allowed_roles = ['admin'];
+include '../header.php';
+?>
+<link href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css' rel='stylesheet'>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="settings.css">
+<title>AdminHub</title>
+
+<!-- SIDEBAR -->
+<section id="sidebar">
+	<a href="index.php" class="brand">
+		<i class='bx bxs-smile'></i>
+		<span class="text">Macoy's Straightening Salon</span>
+	</a>
+	<ul class="side-menu top">
+		<li>
+			<a href="index.php">
+				<i class='bx bxs-dashboard' ></i>
+				<span class="text">Dashboard</span>
+			</a>
+		</li>
+		<li>
+			<a href="mystore.php">
+				<i class='bx bxs-shopping-bag-alt' ></i>
+				<span class="text">Services</span>
+			</a>
+		</li>
+		<li>
+			<a href="analytics.php">
+				<i class='bx bxs-doughnut-chart' ></i>
+				<span class="text">Analytics</span>
+			</a>
+		</li>
+		<li>
+			<a href="feedback.php">
+				<i class='bx bxs-message-dots' ></i>
+				<span class="text">Feedback</span>
+			</a>
+		</li>
+	</ul>
+	<ul class="side-menu">
+		<li class="active">
+			<a href="settings.php">
+				<i class='bx bxs-cog' ></i>
+				<span class="text">Settings</span>
+			</a>
+		</li>
+		<li>
+			<a href="../logout.php" class="logout">
+				<i class='bx bxs-log-out-circle' ></i>
+				<span class="text">Logout</span>
+			</a>
+		</li>
+	</ul>
+</section>
+<!-- SIDEBAR -->
+
+
+
+<!-- CONTENT -->
+<section id="content">
+	<!-- NAVBAR -->
+	<nav>
+		<i class='bx bx-menu' ></i>
+		<a href="#" class="nav-link">Categories</a>
+		<form action="#">
+			<div class="form-input">
+				<input type="search" placeholder="Search...">
+				<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+			</div>
+		</form>
+		<input type="checkbox" id="switch-mode" hidden>
+		<label for="switch-mode" class="switch-mode"></label>
+		<a href="notification.php" class="notification">
+			<i class='bx bxs-bell' ></i>
+			<span class="num"><?php echo rand(1,10); ?></span>
+		</a>
+		<a href="profile.php" class="profile">
+			<img src="people.png">
+		</a>
+	</nav>
+	<!-- NAVBAR -->
+
+
+	<!-- MAIN -->
+	<main>
+		<div class="head-title">
+			<div class="left">
+				<h1>Settings</h1>
+				<ul class="breadcrumb">
+					<li>
+						<a href="index.php">Dashboard</a>
+					</li>
+					<li><i class='bx bx-chevron-right' ></i></li>
+					<li>
+						<a class="active" href="#">Settings</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<div class="table-data">
+			<div class="order">
+				<div class="head">
+					<h3>Account Settings</h3>
+				</div>
+				<div class="settings-container">
+					<div class="settings-group">
+						<label>Salon Name</label>
+						<input type="text" value="Macoy's Straightening Salon" placeholder="Enter salon name">
+					</div>
+					<div class="settings-group">
+						<label>Email Address</label>
+						<input type="email" value="macoy@salon.com" placeholder="Enter email">
+					</div>
+					<div class="settings-group">
+						<label>Phone Number</label>
+						<input type="tel" value="+1 234 567 8900" placeholder="Enter phone number">
+					</div>
+					<div class="settings-group">
+						<label>Address</label>
+						<input type="text" value="Paliparan 3 Mabuhay City Dasmarinas Cavite" placeholder="Enter address">
+					</div>
+					<div class="settings-group">
+						<label>Opening Hours</label>
+						<input type="text" value="9:00 AM - 7:00 PM" placeholder="Enter opening hours">
+					</div>
+					<button class="save-btn">Save Changes</button>
+				</div>
+			</div>
+			<div class="todo">
+				<div class="head">
+					<h3>Preferences</h3>
+				</div>
+				<ul class="todo-list">
+					<li class="completed">
+						<div class="setting-item">
+							<i class='bx bx-bell' ></i>
+							<p>Email Notifications</p>
+						</div>
+						<input type="checkbox" checked>
+					</li>
+					<li class="completed">
+						<div class="setting-item">
+							<i class='bx bx-moon' ></i>
+							<p>Dark Mode</p>
+						</div>
+						<input type="checkbox">
+					</li>
+					<li class="completed">
+						<div class="setting-item">
+							<i class='bx bx-envelope' ></i>
+							<p>Weekly Reports</p>
+						</div>
+						<input type="checkbox" checked>
+					</li>
+					<li class="completed">
+						<div class="setting-item">
+							<i class='bx bx-message-dots' ></i>
+							<p>SMS Alerts</p>
+						</div>
+						<input type="checkbox">
+					</li>
+					<li class="completed">
+						<div class="setting-item">
+							<i class='bx bx-globe' ></i>
+							<p>Language: English</p>
+						</div>
+						<i class='bx bx-chevron-right' ></i>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</main>
+	<!-- MAIN -->
+</section>
+<!-- CONTENT -->
+
+<script src="script.js"></script>
+<?php include '../footer.php'; ?>
