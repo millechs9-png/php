@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "customerId": 3,
+    "customer": "Juan Dela Cruz",
+    "date": "2024-12-25",
+    "time": "10:00 AM",
+    "service": "Haircut",
+    "services": [{"name": "Haircut", "price": 300}],
+    "stylist": "Manny Orale",
+    "status": "pending",
+    "totalCost": 300,
+    "bookingId": "BK-1703510400000",
+    "createdAt": "2024-12-20T08:00:00Z"
+  },
+  {
+    "id": 2,
+    "customerId": 3,
+    "customer": "Juan Dela Cruz",
+    "date": "2024-12-26",
+    "time": "2:00 PM",
+    "service": "Manicure + Pedicure",
+    "services": [{"name": "Manicure", "price": 250}, {"name": "Pedicure", "price": 300}],
+    "stylist": "Macoy Veloso",
+    "status": "confirmed",
+    "totalCost": 550,
+    "bookingId": "BK-1703596800000",
+    "createdAt": "2024-12-21T08:00:00Z"
+  },
+  {
+    "id": 3,
+    "customerId": 3,
+    "customer": "Juan Dela Cruz",
+    "date": "2024-11-15",
+    "time": "11:00 AM",
+    "service": "Hair Coloring",
+    "services": [{"name": "Hair Coloring", "price": 1500}],
+    "stylist": "Manny Orale",
+    "status": "completed",
+    "totalCost": 1500,
+    "bookingId": "BK-1700044800000",
+    "createdAt": "2024-11-10T08:00:00Z"
+  }
+]
