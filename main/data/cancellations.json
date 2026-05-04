@@ -1,0 +1,12 @@
+[
+  {
+    "id": 1,
+    "customerId": 3,
+    "customer": "Juan Dela Cruz",
+    "bookingId": "BK-1703510400000",
+    "reason": "Schedule conflict",
+    "status": "pending",
+    "createdAt": "2024-12-21T10:00:00Z"
+  }
+]
+

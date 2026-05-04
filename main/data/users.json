@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Macoy Veloso",
+    "email": "macoysalon@gmail.com",
+    "password": "$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+    "role": "admin"
+  },
+  {
+    "id": 2,
+    "name": "Manny Orale",
+    "email": "macoystaff@gmail.com",
+    "password": "$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+    "role": "staff"
+  },
+  {
+    "id": 3,
+    "name": "Juan Dela Cruz",
+    "email": "juandelacruz@email.com",
+    "password": "$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi",
+    "role": "customer"
+  }
+]
+

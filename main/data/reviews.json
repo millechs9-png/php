@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1728000000,
+    "customerId": 1728000001,
+    "customer": "Jane Doe",
+    "bookingId": "BK-1728000002",
+    "rating": 5,
+    "comment": "Amazing service! Sarah was fantastic. Highly recommend!",
+    "service": "Hair Styling",
+    "createdAt": "2024-10-05T10:30:00Z",
+    "adminApproved": true
+  },
+  {
+    "id": 1728000003,
+    "customerId": 1728000004,
+    "customer": "John Smith",
+    "bookingId": "BK-1728000005",
+    "rating": 4,
+    "comment": "Great massage, very relaxing. Room could be warmer next time.",
+    "service": "Full Body Massage",
+    "createdAt": "2024-10-04T14:15:00Z",
+    "adminApproved": true
+  }
+]
